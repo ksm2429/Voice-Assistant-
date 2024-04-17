@@ -1,0 +1,4 @@
+pyaudio
+speechRecognition
+pyttsx3
+pip install wikipedia
