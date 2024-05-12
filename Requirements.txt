@@ -1,3 +1,4 @@
+###python
 pyaudio
 speechRecognition
 pyttsx3
