@@ -3,3 +3,7 @@ pyaudio
 speechRecognition
 pyttsx3
 pip install wikipedia
+
+
+
+All the credit goes to (https://github.com/ksm2429).
