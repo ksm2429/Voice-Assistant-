@@ -29,16 +29,16 @@ pip install wikipedia
    ```bash
    git clone https://github.com/ksm2429/Voice-Assistant.git
    cd Voice-Assistant
-Main Components
-Text-to-Speech (TTS): Utilizes pyttsx3 to convert text to speech.
-Speech Recognition: Uses SpeechRecognition to recognize user voice commands.
-Email Functionality: Sends emails via SMTP using smtplib.
-Web Browser Control: Opens specified websites using webbrowser.
-Music Playback: Plays music from a defined directory using os.
-Sample Commands
-"Wikipedia [topic]" - Searches Wikipedia for the specified topic.
-"Open YouTube" - Opens YouTube in the default web browser.
-"Play music" - Plays the first song in the specified music directory.
-"The time" - Tells the current time.
-"Email to Bujji" - Sends an email to a specified address.
+## Main Components
+1) Text-to-Speech (TTS): Utilizes pyttsx3 to convert text to speech.
+2) Speech Recognition: Uses SpeechRecognition to recognize user voice commands.
+3) Email Functionality: Sends emails via SMTP using smtplib.
+4) Web Browser Control: Opens specified websites using webbrowser.
+5) Music Playback: Plays music from a defined directory using os.
+### Sample Commands:
+- "Wikipedia [topic]" - Searches Wikipedia for the specified topic.
+- "Open YouTube" - Opens YouTube in the default web browser.
+- "Play music" - Plays the first song in the specified music directory.
+- "The time" - Tells the current time.
+- "Email to Bujji" - Sends an email to a specified address.
 
