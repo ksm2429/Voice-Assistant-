@@ -13,7 +13,7 @@ import smtplib
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # print(voices[1].id)
-engine.setProperty('voice', voices[0].id)
+engine.setProperty('voice', voices[1].id)
 
 
 def speak(audio):
@@ -101,15 +101,15 @@ if __name__ == "__main__":
             codePath = "C:\\Users\\ksm\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
-        elif 'email to Bean' in query:
+        elif 'email to Bujji' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "BeanyourEmail@gmail.com"    
+                to = "BujjiEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend Bean bhai. I am not able to send this email")    
+                speak("Sorry my friend Bujji. I am not able to send this email")    
         else:
             print("No query matched")
