@@ -29,6 +29,13 @@ pip install wikipedia
    ```bash
    git clone https://github.com/ksm2429/Voice-Assistant.git
    cd Voice-Assistant
+
+2. Install the required packages:
+   ```bash
+   pip install pyttsx3
+   pip install SpeechRecognition
+   pip install wikipedia
+
 ## Main Components
 1) Text-to-Speech (TTS): Utilizes pyttsx3 to convert text to speech.
 2) Speech Recognition: Uses SpeechRecognition to recognize user voice commands.
